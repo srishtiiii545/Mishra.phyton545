@@ -1,0 +1,583 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPm0OiAttvIcplmataEDOzu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/srishtiiii545/Mishra.phyton545/blob/main/input_program\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "1Df7p_Wequxj"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "OMXHQI4Bh1C-"
+      },
+      "outputs": [],
+      "source": [
+        "# print(\"hi\")\n",
+        "# a=1\n",
+        "# b=2\n",
+        "# c=type(a)\n",
+        "# print(\"type value of c\")\n",
+        "# print(c)\n",
+        "# m=input()\n",
+        "# n=input()\n",
+        "# print(int(m)+int(n))\n",
+        "# c=input()\n",
+        "# h=input()\n",
+        "# print(int(c)-int(h))\n",
+        "# k=input()\n",
+        "# l=input()\n",
+        "# print(int(k)*int(l))\n",
+        "t=input()\n",
+        "s=input()\n",
+        "print(int(t)/int(s))\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input('enter the value')\n",
+        "print(type(a))\n",
+        "a=bool(a)\n",
+        "print(type (a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l3qMqKhltKJu",
+        "outputId": "f5ee3ee5-0bee-4d91-fe8f-eb0e8673bfd1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the value4\n",
+            "<class 'str'>\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input()\n",
+        "b=input()\n",
+        "c=input()\n",
+        "a=int(a)\n",
+        "b=int(b)\n",
+        "c=int(c)\n",
+        "d=a+b+c\n",
+        "if d<8:\n",
+        " print('true')\n",
+        "elif a-b>c:\n",
+        "  print('both are even')\n",
+        "else:\n",
+        "  print('false')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q0r0_XLJwZYI",
+        "outputId": "338faf5a-005d-4bd8-aee1-1cd25e508950"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n",
+            "4\n",
+            "18\n",
+            "false\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input()\n",
+        "a=int(a)\n",
+        "if a%3==0:\n",
+        " print('a is divisible by 3')\n",
+        "elif a%4==0:\n",
+        "  print('a is divisible by 4')\n",
+        "elif a% 5==0:\n",
+        "  print('a is divisible by 5')\n",
+        "else :\n",
+        "  print('a is not divisible by 3,4,5')\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WVxNjdv1zmhe",
+        "outputId": "1487257c-1cd4-418a-eeb7-c03141a7fa83"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "17\n",
+            "a is not divisible by 3,4,5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 5<2:\n",
+        " print('5 is bigger')\n",
+        "else :\n",
+        "  print('condition is false')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1z-oIIOCuaqY",
+        "outputId": "6048c8fd-5189-4e48-9236-1d999818f4fc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "condition is false\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input()\n",
+        "a=int(a)\n",
+        "if a<=10:\n",
+        "  if a==1:\n",
+        "    print(\"one\")\n",
+        "  elif a==2:\n",
+        "    print(\"two\")\n",
+        "  elif a==3:\n",
+        "    print(\"three\")\n",
+        "  elif a==4:\n",
+        "    print(\"four\")\n",
+        "  elif a==5:\n",
+        "    print(\"five\")\n",
+        "  elif a==6:\n",
+        "    print(\"six\")\n",
+        "  elif a==7:\n",
+        "    print(\"seven\")\n",
+        "  elif a==8:\n",
+        "    print(\"eight\")\n",
+        "  elif a==9:\n",
+        "    print(\"nine\")\n",
+        "  elif a==10:\n",
+        "    print(\"ten\")\n",
+        "else:\n",
+        "    print(\"a is greater than 10\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D9m34GYT2Rup",
+        "outputId": "5cfc291a-9516-4018-c355-63ccf2d25a5a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "88\n",
+            "a is greater than 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in  ('hello'):\n",
+        " print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LUbVYJB44vVz",
+        "outputId": "7c32bc27-54a0-4da7-8b04-6131a67671f0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "h\n",
+            "e\n",
+            "l\n",
+            "l\n",
+            "o\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "for i in range (0,10):\n",
+        "  print(a*i)"
+      ],
+      "metadata": {
+        "id": "LpOYzWp45ioy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(5,1,-1):\n",
+        "  print('reverse numbering')\n",
+        "  print(i)\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "z_yBVF7Y6BgM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i =int(input())\n",
+        "for n in range():\n"
+      ],
+      "metadata": {
+        "id": "r2CLRo9A9OCe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(10):\n",
+        "  if i==3:\n",
+        "    print('i is 3')\n",
+        "    continue\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "id": "wbiH5GFNDNo5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(10):\n",
+        "  if i==3:\n",
+        "    print('i is 3')\n",
+        "    break\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "id": "HlCFRV9UF5m1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(5,1):\n",
+        "  print('reverse numbering')\n",
+        "  print(i)\n",
+        "else:\n",
+        "  print(\"false\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IiS-fjpPHMsc",
+        "outputId": "6cc9ac58-d733-4b9e-d725-cb768a5b568e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "false\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "rev=0\n",
+        "while a>0:\n",
+        "  rem=a%10\n",
+        "  a=int(a/10)\n",
+        "  rev=rev*10+rem\n",
+        "print(rev)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Wv5hgNaAJgm8",
+        "outputId": "ed0f3a09-cebf-473b-dc03-032d13a1a5f1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "345\n",
+            "543\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input()\n",
+        "b=input()\n",
+        "def sum(a, b):\n",
+        "  c=a+b\n",
+        "  print (int(a)+int(b))\n",
+        "sum(a,b)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wQsAgIroOcOa",
+        "outputId": "74bb0318-bfdc-4384-a5c7-0a765d6ae6ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "5\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "c=int(input())\n",
+        "def add(*arg):\n",
+        "  d=len(arg)\n",
+        "  print(arg[d-1])\n",
+        "\n",
+        "add(a,b)"
+      ],
+      "metadata": {
+        "id": "hUMR85N-PJwB",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "106db551-94a0-43be-a502-b3c84d5e0d93"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "c=int(input())\n",
+        "print(a**2+b**2+c**2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XLN-g6AiGrrn",
+        "outputId": "3f468dec-28ea-401c-a34d-4fd24755c4d2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "2\n",
+            "3\n",
+            "17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1=int(input())\n",
+        "num2=int(input())\n",
+        "def add(num1,num2):\n",
+        "  return num1+num2\n",
+        "add(num1,num2)\n",
+        "print(\"sum of\",num1,\"and\",num2,\"is\",add(num1,num2))\n",
+        "num3=int(input())\n",
+        "num4=int(input())\n",
+        "add(num3,num4)\n",
+        "print(\"sum of\",num3,\"and\",num4,\"is\",add(num3,num4))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v7q4h8kfJH43",
+        "outputId": "f5e0f2d8-1f65-40d7-e8de-93899234d00e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "6\n",
+            "sum of 5 and 6 is 11\n",
+            "5\n",
+            "5\n",
+            "sum of 5 and 5 is 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=0\n",
+        "i=a\n",
+        "if i>0:\n",
+        "    number=a%10\n",
+        "    b+=number**2\n",
+        "elif a==b:\n",
+        "     print(a,\"yes it is armstrong number\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"you are wrong\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NH3vW5foO1sV",
+        "outputId": "022849cb-0aad-4a60-dc5e-1245bee669cb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "156\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=int(input())\n",
+        "flag=o\n",
+        "if i>1:\n",
+        "  for i in range(2,i):\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "8uqlfdU-k3L6"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
